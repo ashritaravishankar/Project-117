@@ -1,0 +1,7 @@
+window.location.replace("http://www.w3schools.com");
+
+
+  border-radius: 30px;
+    border-color: black;
+    border-width: 5px;
+border-style: ridge;

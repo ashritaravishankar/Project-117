@@ -1,0 +1,136 @@
+body{
+
+    background:linear-gradient(rgb(255, 218, 9) 60%, rgb(255, 251, 0));
+    border-style:dashed;
+    border-color:black;
+    border-width: 3px;
+    border-radius:35px;
+ }
+ 
+ 
+ #show_sketch{
+ 
+     float:right;
+ 
+ }
+ 
+ 
+ #heading{
+ 
+     background:linear-gradient(to right bottom, rgb(0, 247, 255) , rgb(139, 223, 107));
+     width:500px;
+     height:60px;
+     color:white;
+     font-family:fantasy;
+     color:black;
+
+     border-style:ridge;
+     border-color:black;
+     border-width: 3px;
+     border-radius:25px;
+
+     margin-top:10px;
+     
+ 
+ }
+ 
+ canvas{
+     border:5px solid white;
+     border-radius:20px;
+     animation-name:example;
+     animation-duration:4s;
+     margin-top:50px;
+     animation-iteration-count:infinite;
+ 
+ }
+ 
+ @keyframes example{
+     from{
+         box-shadow:1px 1px 38px grey;
+ 
+     }
+ 
+     to{
+         box-shadow:1px 1px 38px white;
+     }
+ }
+ 
+ #image{
+     
+     -webkit-box-reflect : below 0px linear-gradient (to bottom,rgba (0,0,0,0.0), rgba (0,0,0,0.0));
+ 
+ }
+
+
+ #label{
+     font-size:20px;
+     font-family:monospace;
+    
+     margin-top:20px;
+    
+ }
+
+ #confidence{
+    font-size:20px;
+    font-family:monospace;
+    margin-top:10px;
+
+ }
+
+ #draw_sketch{
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:10px;
+    color:blue;
+   
+}
+
+#cl_btn{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:130px;
+}
+
+#show_sketch{
+
+    color:rgb(0, 0, 0);
+    margin-top:640px;
+    background:linear-gradient(to right bottom, rgb(255, 134, 20), rgb(255, 208, 0));
+    font-size:19px;
+    border-bottom-right-radius: 35px;
+
+    border-top-width: 2px;
+border-left-width:2px;
+
+border-color:black;
+border-style:solid;
+}
+
+#score{
+    color:black;
+    float:left;
+    margin-left: 15px;
+    font-size:19px;
+ 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    background: linear-gradient(to right bottom, rgb(255, 134, 20), rgb(255, 208, 0));
+
+    border-radius: 135px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+}
+
+
+#timer{
+    float:right;
+    color:black;
+   
+    font-size:19px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background:linear-gradient(to right bottom, rgb(255, 134, 20), rgb(255, 208, 0));
+border-radius: 135px;
+border-width:2px;
+border-style:solid;
+border-color:black;
+}

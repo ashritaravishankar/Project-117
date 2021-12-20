@@ -1,0 +1,67 @@
+body{
+    background-image: url("yellow10.jpg");
+    
+    background-repeat: no-repeat;
+    background-size:1740px 900px;
+
+  
+}
+
+#quick_draw_img{
+    border-radius: 20px;
+    border-color: black;
+    border-width:2px;
+border-style: solid;
+margin-right:250px;
+}
+
+#lets_draw_btn{
+    background-color:rgb(255, 218, 9);
+    border-radius: 2px;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: rgb(255, 218, 9);
+    border-width:2px;
+border-style: ridge;
+text-shadow:yellow;
+font-family: monospace;
+font-size:19px;
+}
+
+
+#lets_draw_btn_div{
+    border-bottom-color:rgb(255, 233, 107);
+    border-bottom-width:8px;
+    border-bottom-style:solid;
+    width:150px;
+
+}
+
+#QD_P{
+    font-family:cursive;
+    font-size:29px;
+}
+
+#QD_P2{
+    font-family:fantasy;
+    font-size:20px;
+    width:600px;
+}
+
+#bulb{
+    float:right;
+    width:250px;
+    height:200px;
+    border-radius:400px;
+
+}
+
+
+
+#star{
+    float:left;
+    width:250px;
+    height:200px;
+    border-radius:400px;
+}
